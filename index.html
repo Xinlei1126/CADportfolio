@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Li | Mechanical Design Portfolio</title>
+
+    <meta
+        name="description"
+        content="Li mechanical design and CAD portfolio featuring automation, production-line engineering, robotics and product development projects."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER / NAVIGATION
+    ========================== -->
+    <header class="site-header">
+        <a class="brand" href="#top" aria-label="Go to homepage">
+            <span class="brand-name">Li</span>
+            <span class="brand-divider">/</span>
+            <span class="brand-discipline">Projects</span>
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a data-i="projects" href="#projects">Projects</a>
+            <a data-i="cv" href="#cv">CV</a>
+
+            <button id="lang" type="button" aria-label="Switch language">
+                SV
+            </button>
+        </nav>
+    </header>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+    <main id="top">
+
+        <!-- =========================
+             HOME / HERO
+        ========================== -->
+        <section class="hero">
+
+            <div class="hero-copy">
+                <p class="eyebrow" data-i="herolabel">
+                    MECHANICAL ENGINEER · CAD · AUTOMATION
+                </p>
+
+                <p class="hero-name">Li</p>
+
+                <p class="hero-role" data-i="jobtitle">
+                    Mechanical Engineer
+                </p>
+
+                <h1 data-i="hero">
+                    Engineering ideas into manufacturable systems.
+                </h1>
+
+                <p class="lead" data-i="intro">
+                    Mechanical engineer with experience in multidisciplinary
+                    design, automation, lightweight engineering, FEM, 3D CAD
+                    and detailed drawings — from concept to production and
+                    on-site assembly.
+                </p>
+
+                <!-- Contact information -->
+                <div class="hero-contact" aria-label="Contact information">
+                    <a class="contact-item" href="tel:+46700000000">
+                        <span class="contact-label" data-i="mobile">Mobile:</span>
+                        <span class="contact-value">+46 70 000 00 00</span>
+                    </a>
+
+                    <a class="contact-item" href="mailto:xi.li@example.com">
+                        <span class="contact-label" data-i="email">Email:</span>
+                        <span class="contact-value">xi.li@example.com</span>
+                    </a>
+
+                    <a
+                        class="contact-item"
+                        href="https://www.linkedin.com/in/xi-li-example/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">linkedin.com/in/xi-li-example</span>
+                    </a>
+                </div>
+
+                <div class="actions">
+                    <a class="primary" href="#projects" data-i="see">
+                        View CAD projects
+                    </a>
+
+                    <a href="#cv" data-i="readcv">
+                        Read CV
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div class="hero-visual">
+                <div class="heroimg">
+                    <img
+                        src="assets/engine_block_grinding.jpg"
+                        alt="Robotic engine block grinding production line CAD model"
+                    >
+                </div>
+
+                <div class="hero-stats" aria-label="Engineering focus">
+                    <div>
+                        <strong>3D CAD</strong>
+                        <span>Creo · CATIA · SolidWorks</span>
+                    </div>
+
+                    <div>
+                        <strong>CAE</strong>
+                        <span>FEM · ANSYS · Lightweight design</span>
+                    </div>
+
+                    <div>
+                        <strong>Automation</strong>
+                        <span>Production lines · Robotics · PLC</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECT PORTFOLIO
+        ========================== -->
+        <section id="projects" class="projects-section">
+
+            <div class="sectionhead">
+                <p class="eyebrow" data-i="selected">
+                    SELECTED WORK
+                </p>
+
+                <h2 data-i="portfolio">
+                    CAD project portfolio
+                </h2>
+            </div>
+
+            <!-- Project cards are generated with JavaScript -->
+            <div id="grid" class="grid"></div>
+
+        </section>
+
+
+        <!-- =========================
+             CV SECTION
+        ========================== -->
+        <section id="cv" class="cv">
+
+            <div class="sectionhead cv-heading">
+                <div>
+                    <p class="eyebrow">CURRICULUM VITAE</p>
+
+                    <h2 data-i="cvtitle">
+                        Mechanical Engineer · Research Engineer
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="cvgrid">
+
+                <!-- CV Sidebar -->
+                <aside>
+
+                    <div class="contact">
+                        <h3 class="person-name">Li</h3>
+
+                        <p data-i="jobtitle">
+                            Mechanical Engineer
+                        </p>
+
+                        <p>
+                            <strong data-i="mobile">Mobile:</strong>
+                            <a href="tel:+46700000000">+46 70 000 00 00</a>
+                        </p>
+
+                        <p>
+                            <strong data-i="email">Email:</strong>
+                            <a href="mailto:xi.li@example.com">xi.li@example.com</a>
+                        </p>
+
+                        <p>
+                            <strong>LinkedIn:</strong>
+                            <a
+                                href="https://www.linkedin.com/in/xi-li-example/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                linkedin.com/in/xi-li-example
+                            </a>
+                        </p>
+                    </div>
+
+
+                    <h3 data-i="tools">
+                        Technical tools &amp; skills
+                    </h3>
+
+                    <p>
+                        Creo / Pro Engineer ·
+                        CATIA / 3DEXPERIENCE ·
+                        SolidWorks ·
+                        Autodesk Inventor / AutoCAD ·
+                        ANSYS / CES EduPack ·
+                        MATLAB ·
+                        Python ·
+                        PLC ·
+                        Microsoft Office
+                    </p>
+
+
+                    <h3 data-i="personal">
+                        Personal details
+                    </h3>
+
+                    <p data-i="languages">
+                        Languages: Mandarin Chinese (native),
+                        English (professional),
+                        Swedish (functional)
+                    </p>
+
+                    <p data-i="licence">
+                        Driving licence: B
+                    </p>
+
+                    <p data-i="hobbies">
+                        Hobbies: 3D smart-home design, bamboo flute,
+                        board games, hiking and cooking
+                    </p>
+
+                </aside>
+
+
+                <!-- CV Main Content generated with JavaScript -->
+                <article id="cvcontent"></article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer>
+        <span>Li · Mechanical Design</span>
+
+        <span data-i="ref">
+            Let's create a 3D world!
+        </span>
+    </footer>
+
+
+    <!-- =========================
+         PROJECT IMAGE MODAL
+    ========================== -->
+    <div
+        id="modal"
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-hidden="true"
+        aria-labelledby="mtitle"
+    >
+        <button
+            id="close"
+            type="button"
+            aria-label="Close project"
+        >
+            ×
+        </button>
+
+        <img id="mimg" src="" alt="">
+
+        <div class="modal-content">
+            <h2 id="mtitle"></h2>
+            <p id="mdesc"></p>
+        </div>
+    </div>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+    <script src="script.js"></script>
+
+</body>
+</html>
