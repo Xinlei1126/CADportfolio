@@ -6,7 +6,7 @@ const data = {
     en: {
         projects: "Projects",
         cv: "CV",
-        herolabel: "MECHANICAL ENGINEER · CAD · AUTOMATION",
+        herolabel: "MECHANICAL CADs & AUTOMATION SOLUTIONs",
 
         hero: "Engineering ideas into manufacturable systems.",
 
