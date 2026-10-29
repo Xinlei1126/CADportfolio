@@ -2,6 +2,8 @@
 
 A responsive, bilingual portfolio for presenting mechanical engineering and CAD work. The site introduces Li’s engineering background, highlights selected design and automation projects, and provides an on-page CV in English and Swedish.
 
+The visit link is from https://xinlei1126.github.io/CADportfolio/
+
 The portfolio is a static website built with HTML, CSS, and vanilla JavaScript. It has no server-side code, external services, package installation, or build step.
 
 ## Website features
